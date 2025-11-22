@@ -1,4 +1,17 @@
-# Quantum Gate Grid Theory Repository  
+# Quantum Gate Grid Theory Repository
+
+$$
+Y(t) = \mathcal{Q}(S,B;\Theta)
+$$
+
+$$
+\Delta m = \frac{m_{\mathcal{Q}} - m_{\mathbb{I}}}{m_{\mathbb{I}}} \cdot 100\%
+$$
+
+**Author:** Earl Bowens  
+📍 Elkhart, Indiana  
+✉️ bowensearl1076@gmail.com  
+🔗 [GitHub Profile](https://github.com/earlbowens-qg) Quantum Gate Grid Theory Repository  
 **Author:** Earl Bowens  
 📍 Elkhart, Indiana  
 📧 bowensearl076@gmail.com  
