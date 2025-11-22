@@ -1,4 +1,23 @@
-# Quantum Gate Grid (QGG) Theory Repository
+## Quantum Gate Grid (QGG)
+
+**Mobile-first anomaly detection and stealth overlay engine**  
+Built in Termux. Sealed with Ed25519. Designed for replay fidelity, scientific outreach, and legacy handover.
+
+---
+
+## 📜 Executive Summary
+
+QGG detects anomalies across quantum, planetary, and stealth domains using deterministic signals, DSP overlays, and sealed manifests. Every run is narratable, reproducible, and empirically verifiable.
+
+---
+
+## 🔧 Install & Run
+
+```bash
+git clone https://github.com/earlbowens-qgg
+cd qgg
+./install.sh
+./qgg --input telemetry_stream.json --verify manifest.ed25519 Quantum Gate Grid (QGG) Theory Repository
 
 The Quantum Gate Grid operator is defined as:
 
