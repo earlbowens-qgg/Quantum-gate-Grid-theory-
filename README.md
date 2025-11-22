@@ -1,30 +1,29 @@
-# Quantum Gate Grid Theory Repository
+# Quantum Gate Grid (QGG) Theory Repository
+
+The Quantum Gate Grid operator is defined as:
 
 $$
-Y(t) = \mathcal{Q}(S,B;\Theta)
+Y(t) = \mathcal{Q}(S, B; \Theta)
 $$
 
-$$
-\Delta m = \frac{m_{\mathcal{QGG}} - m_{B}}{m_{B}} \cdot 100\%
-$$
-
-**Author:** Earl Bowens  
-📍 Elkhart, Indiana  
-✉️ bowensearl1076@gmail.com  
-🔗 [GitHub Profile](https://github.com/earlbowens-qgg) Quantum Gate Grid Theory Repository
+Performance uplift compared to baseline:
 
 $$
-Y(t) = \mathcal{Q}(S,B;\Theta)
+\Delta m = \left( \frac{m_{\mathcal{QGG}} - m_{B}}{m_{B}} \right) \cdot 100\%
 $$
 
-$$
-\Delta m = \frac{m_{\mathcal{Q}} - m_{\mathbb{I}}}{m_{\mathbb{I}}} \cdot 100\%
-$$
+---
 
-**Author:** Earl Bowens  
-📍 Elkhart, Indiana  
-✉️ bowensearl1076@gmail.com  
-🔗 [GitHub Profile](https://github.com/earlbowens-qgg) Quantum Gate Grid Theory Repository  
+### Symbol Key
+- \(S(t)\): raw signal  
+- \(B(t)\): baseline output  
+- \(\Theta\): threshold parameters  
+- \(\mathcal{QGG}\): Quantum Gate Grid operator  
+- \(m\): metric (precision, recall, F1, SNR, etc.)  
+
+---
+
+© 2025 Earl Bowens — Quantum Gate Grid (QGG)
 **Author:** Earl Bowens  
 📍 Elkhart, Indiana  
 📧 bowensearl076@gmail.com  
