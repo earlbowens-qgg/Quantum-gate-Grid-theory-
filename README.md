@@ -1,4 +1,15 @@
-# Cathedral Launcher + QGG Engine
+# Cathedral + QGG
+
+## 🏛️ What This Is
+This repository contains **Cathedral** (the launcher, audit wrapper, and sealing ritual) with **QGG** (the anomaly detection engine) inside it.  
+Cathedral was built directly in Termux on a Moto device by Earl Bowens. It is unique and required to run QGG reproducibly. Without Cathedral, QGG cannot produce sealed, narratable artifacts.
+
+## 📥 How to Install
+Clone this repository — Cathedral is included here:
+
+```bash
+git clone https://github.com/earlbowens-qgg/cathedral.git
+cd cathedral Cathedral Launcher + QGG Engine
 
 ## 🏛️ Cathedral First
 Cathedral is the launcher, audit wrapper, and sealing ritual. It was built by Earl Bowens and is required to invoke QGG correctly. Without Cathedral, QGG cannot produce sealed, narratable, reproducible artifacts.
