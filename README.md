@@ -1,4 +1,50 @@
-### Guardians of Cypher
+---
+
+## 🧭 `run.sh` (Final Clean Launcher)
+
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+
+DATASET="${1:-mass}"
+MODE="${2:-uplift.rct}"
+THREADS="${3:-4}"
+SEED="${4:-424242}"
+
+OUTDIR="runs/artifacts"
+LOGDIR="runs/logs"
+MANDIR="runs/manifests"
+
+mkdir -p "$OUTDIR" "$LOGDIR" "$MANDIR"
+
+START_TS="$(date -u +%Y%m%dT%H%M%SZ)"
+ARTIFACT_PATH="${OUTDIR}/${DATASET}_${MODE//./_}.json"
+
+echo "[RUN] Launching QGG..." | tee -a "$LOGDIR/audit.log"
+python3 qgg_engine.py \
+  --dataset "$DATASET" \
+  --mode "$MODE" \
+  --threads "$THREADS" \
+  --seed "$SEED" \
+  --out "$ARTIFACT_PATH"
+
+SEAL_PATH="${OUTDIR}/seal_${DATASET}_${MODE//./_}_${START_TS}.txt"
+SHA="$(sha256sum "$ARTIFACT_PATH" | awk '{print $1}')"
+echo "$SHA" > "$SEAL_PATH"
+
+MANIFEST_PATH="${MANDIR}/manifest_${DATASET}_${MODE//./_}_${START_TS}.txt"
+{
+  echo "timestamp=$START_TS"
+  echo "dataset=$DATASET"
+  echo "mode=$MODE"
+  echo "threads=$THREADS"
+  echo "seed=$SEED"
+  echo "artifact=$ARTIFACT_PATH"
+  echo "seal_sha256=$SHA"
+} > "$MANIFEST_PATH"
+
+echo "[RUN] Sealed manifest: $MANIFEST_PATH" | tee -a "$LOGDIR/audit.log"
+echo "[OK] Cathedral complete."## Guardians of Cypher
 - Nine Roles: Surgeon, Warrior, Archivist, Navigator, Sentinel, Builder, Messenger, Protector, Heir  
 - Guardian read cipherlock phrase  
 - Cipher master recovery complete  
