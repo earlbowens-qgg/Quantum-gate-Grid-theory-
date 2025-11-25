@@ -1,4 +1,19 @@
-#!/usr/bin/env bash
+# Cathedral + QGG (C++ + Bash Harness)
+
+## 🏛️ What this is
+Cathedral is the launcher + sealer. QGG is the engine. Together they produce sealed, narratable artifacts.
+
+## 📂 Project Layout
+- `CMakeLists.txt` → build definition
+- `src/qgg.cpp` → QGG engine (C++)
+- `run.sh` → Cathedral launcher (bash)
+- `runs/` → artifacts, manifests, logs (ignored in git)
+
+## 🚀 Quick Start
+Clone the repo:
+```bash
+git clone https://github.com/YOURUSERNAME/cathedral.git
+cd cathedral!/usr/bin/env bash
 set -euo pipefail
 
 DATASET="mass"
