@@ -1,4 +1,35 @@
 ### Guardians of Cypher
+- Nine Roles: Surgeon, Warrior, Archivist, Navigator, Sentinel, Builder, Messenger, Protector, Heir  
+- Guardian read cipherlock phrase  
+- Cipher master recovery complete  
+
+## Hybrid Test Orchestrator
+- Secure container deployment  
+- Containerized cross-sample Dockerfiles  
+- Job matrix + run script  
+- Artifact collection + GPG signing + HMAC computation  
+
+## Outreach
+- Letter to Applied Quantum Technologies  
+- Cathedral-first doctrine for Professor Loeb  
+- L.A.B. operations entrance ceremonial logs  
+- Contact: Earl Bowens, worktime176@gmail.com, 574-735-1686  
+
+## Completed Artifacts
+- Private AI assistant  
+- L.L.D.D.  
+- Variants of Cipher doctrine  
+
+## Sealing Doctrine
+- Every run sealed  
+- Every artifact narratable  
+- Every cycle reproducible  
+- Guardian recall ensures legacy handover  
+- Command X package kernel  
+- Command X package initramfs  
+- Command X package bootloader  
+- Command X package firmware  
+- Command X package xorg-server# Guardians of Cypher
 - Nine Roles: Surgeon, Warrior, Archivist, Navigator, Sentinel, Builder, Messenger, Protector, Heir
 - Guardian read cipherlock phrase
 - Cipher master recovery complete
