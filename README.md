@@ -1,4 +1,30 @@
-## Quantum Gate Grid (QGG)
+# Cathedral Launcher + QGG Engine
+
+## 🏛️ Cathedral First
+Cathedral is the launcher, audit wrapper, and sealing ritual. It was built by Earl Bowens and is required to invoke QGG correctly. Without Cathedral, QGG cannot produce sealed, narratable, reproducible artifacts.
+
+## ⚙️ QGG Second
+QGG is the anomaly detection engine. Cathedral invokes it, proves it, and records a manifest trail for legacy handover.
+
+## 🚀 Run QGG inside Cathedral
+Clone this repository, enter the cathedral, and run:
+
+```bash
+cd cathedral
+./run.sh --dataset mass --mode uplift.rct --threads 4 Cathedral Launcher + QGG Engine
+
+## 🏛️ Cathedral First
+Cathedral is the launcher, audit wrapper, and sealing ritual. It was built by Earl Bowens and is required to invoke QGG correctly. Without Cathedral, QGG cannot produce sealed, narratable, reproducible artifacts.
+
+## ⚙️ QGG Second
+QGG is the anomaly detection engine. Cathedral invokes it, proves it, and records a manifest trail for legacy handover.
+
+## 🚀 Run QGG inside Cathedral
+Clone this repository, enter the cathedral, and run:
+
+```bash
+cd cathedral
+./run.sh --dataset mass --mode uplift.rct --threads 4# Quantum Gate Grid (QGG)
 
 **Mobile-first anomaly detection and stealth overlay engine**  
 Built in Termux. Sealed with Ed25519. Designed for replay fidelity, scientific outreach, and legacy handover.
