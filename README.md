@@ -1,4 +1,13 @@
-# Cathedral + QGG (C++ + Bash Harness)
+# Cathedral • QGG Temple (Termux‑ready)
+
+Cathedral is a mobile‑native launcher + sealer for the QGG engine. It builds, runs, seals, and writes a narratable manifest — all on‑device.
+
+## Quick start
+```bash
+git clone https://github.com/YOURUSERNAME/cathedral.git
+cd cathedral
+chmod +x run.sh
+./run.sh mass uplift.rct 4 424242 Cathedral + QGG (C++ + Bash Harness)
 
 ## 🏛️ What this is
 Cathedral is the launcher + sealer. QGG is the engine. Together they produce sealed, narratable artifacts.
