@@ -1,4 +1,15 @@
-# Cathedral + QGG Operational Scaffold
+# Cathedral + QGG Unified Pipeline
+
+Cathedral seals the manifest first. QGG runs cycles second.  
+One continuous artifact: narratable, reproducible, sealed.
+
+---
+
+## Quick Start
+
+```bash
+pip install -r requirements.txt
+./run_all.sh Cathedral + QGG Operational Scaffold
 
 This repo runs deterministic Quantum Gate Grid (QGG) cycles and seals results into Cathedral manifests.
 
