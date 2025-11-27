@@ -1,4 +1,18 @@
---#!/usr/bin/env bash
+# QGG — Quick Start (Standalone)
+
+**Goal**: Run QGG from a single clone with a safe dry run first.
+
+## Requirements
+- **Python 3** installed.
+- If using Termux: run `pkg install -y python git curl unzip`.
+- If you cannot use `git` (no token/SSH), download the ZIP from GitHub instead.
+
+## Get the code
+**Clone (recommended)**  
+```bash
+git clone https://github.com/earlb/qgg.git
+cd qgg
+-#!/usr/bin/env bash
 set -euo pipefail
 
 DATASET="${1:-mass}"
