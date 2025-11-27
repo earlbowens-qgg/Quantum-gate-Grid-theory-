@@ -1,4 +1,14 @@
-# QGG — Quick Start (Standalone)
+# Cathedral + QGG Operational Scaffold
+
+This repo runs deterministic Quantum Gate Grid (QGG) cycles and seals results into Cathedral manifests.
+
+---
+
+## Usage
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt QGG — Quick Start (Standalone)
 
 **Goal**: Run QGG from a single clone with a safe dry run first.
 
