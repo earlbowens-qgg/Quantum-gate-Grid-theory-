@@ -1,4 +1,15 @@
-# Cathedral / QGG Hybrid Demo
+# 🛡️ Quantum Gate Grid (QGG) — Baseline Framework
+
+This repository contains the **baseline-only logic** for the Quantum Gate Grid anomaly detection system.  
+Full uplift modules, sealed overlays, and verified replay logic are gated behind contract.
+
+---
+
+## 🔧 Quick Start
+
+```bash
+pip install -r requirements.txt
+python run_baseline.py Cathedral / QGG Hybrid Demo
 
 This is a sealed, all-inclusive demo of the Quantum Gate Grid (QGG) anomaly detection engine. It runs instantly in any Python environment (including Termux), requires no external files, and produces a full empirical report from inline data.
 
