@@ -1,4 +1,6 @@
-# 🛡️ Quantum Gate Grid (QGG) — Baseline Framework
+git add README.md
+git commit -m "Add sealed README for QGG operator"
+git push 🛡️ Quantum Gate Grid (QGG) — Baseline Framework
 
 This repository contains the **baseline-only logic** for the Quantum Gate Grid anomaly detection system.  
 Full uplift modules, sealed overlays, and verified replay logic are gated behind contract.
